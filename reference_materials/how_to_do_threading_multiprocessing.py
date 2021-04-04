@@ -63,7 +63,7 @@ with concurrent.futures.ThreadPoolExecutor() as executor:
         print(f)
 
 # %%
-# Example of a real world example of a threading example
+# Real world example of Threading
 
 os.chdir(r'C:\Users\tanzh\Documents\sandbox folder for python\image_download_threading')
 
