@@ -17,7 +17,6 @@ for x in range(10):
         print(term)
 
 
-
 #%%
 sample_data = [ 
     {"userId": 1,  "name": "rahul", "completed": False}, 

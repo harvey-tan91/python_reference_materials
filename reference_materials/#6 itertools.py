@@ -2,18 +2,18 @@
 FUNCTIONS
 =========
 itertools.zip_longest 
-
+itertools.product
+itertools.permutation
+itertools.combination
+itertools.accumulate
+itertools.groupby
+itertools.chain.from_iterable(lol) --- to flatten a list of list
 
 
 
 
 
 """
-
-
-
-
-
 
 #%%
 import itertools 
@@ -59,4 +59,10 @@ lol_2 = [['apple', 'apple'], 'orange', ['pear', 'pear']]
 print(list(itertools.chain.from_iterable(lol_1)))
 print(list(itertools.chain.from_iterable(lol_2)))
 
+# %%
+X = '10000100000022574'
+
+Y = '10000100000022574'
+
+X == Y
 # %%
