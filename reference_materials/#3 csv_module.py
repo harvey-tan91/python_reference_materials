@@ -25,7 +25,7 @@ os.chdir(r'C:\Users\tanzh\Documents\sandbox folder for python')
 with open('testing.txt', 'w') as f:
     f.write('this is line 1\nthis is line 2')
 
-# %%
+#%%
 source = r'C:\Users\tanzh\OneDrive\Git Folder\book_pandas_for_everyone\datasets\tesla_stock_yahoo.csv'
 
 with open(source, 'r') as file:
@@ -33,6 +33,3 @@ with open(source, 'r') as file:
 
     for line in csv_reader:
         print(line)
-
-
-# %%
