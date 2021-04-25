@@ -12,14 +12,10 @@ python -m venv some_project_venv --- some_project_venv is the name of the virtua
 some_project_venv\Scripts\activate.bat --- to activate the virtual environment
 pip install -r requirements.txt --- requirements.txt contain the information from pip freeze and install all the packages listed in the requirements.txt file
 
-
-
-
-
-
-
-
-
+How to create executable file
+-----------------------------
+pyinstaller --onefile -w some_file.py
+--- this will create the exe file in one file and -w will disable the console when the exe file is being executed
 
 
 

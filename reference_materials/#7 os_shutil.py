@@ -54,5 +54,3 @@ some_file = r'C:\Users\tanzh\Documents\sandbox folder for python\testing.csv'
 print(os.path.exists(some_file))
 print(os.path.isfile(some_file))
 print(os.path.isdir(some_file))
-
-
