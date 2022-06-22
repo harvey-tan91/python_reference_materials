@@ -1,23 +1,26 @@
 CMD COMMAND
 ===========
-pip list --- return the list of packages installled in current version of python
-python do_something.py --- execute do_something.py file 
+pip list # return the list of packages installled in current version of python
+python do_something.py # execute do_something.py file 
 
 
 How to create virtual environment
 ---------------------------------
 # create a project folder and create a virtual environment inside that project folder
 
-pip freeze --- return the specification of the installed modules
+pip freeze # return the specification of the installed modules
 
-python -m venv some_project_venv --- some_project_venv is the name of the virtual environment created in the current working directory
---- a folder will be created with the name of the virtual environment
+python -m venv some_project_venv
+# some_project_venv is the name of the virtual environment created in the current working directory
+# a folder will be created with the name of the virtual environment
 
-python -m venv some_project_venv --system-site-packages # install system python packages
+python -m venv some_project_venv --system-site-packages 
+# install system python packages
 
-some_project_venv\Scripts\activate.bat --- to activate the virtual environment
+some_project_venv\Scripts\activate.bat # to activate the virtual environment
 
-pip install -r requirements.txt --- requirements.txt contain the information from pip freeze and install all the packages listed in the requirements.txt file
+pip install -r requirements.txt 
+# requirements.txt contain the information from pip freeze and install all the packages listed in the requirements.txt file
 
 deactivate # this will deactivate the current vir env
 
@@ -35,7 +38,7 @@ pandas-datareader==0.9.0
 How to create executable file
 -----------------------------
 pyinstaller --onefile -w some_file.py
---- this will create the exe file in one file and -w will disable the console when the exe file is being executed
+# this will create the exe file in one file and -w will disable the console when the exe file is being executed
 
 
 
